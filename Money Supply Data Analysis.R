@@ -1,3 +1,4 @@
+debt<-read_excel("debt.xlsx")
 #Descriptive statistics 
 #mean of government net borrowing in millions 
 mean(debt$`General government net borrowing (£ million)`)
